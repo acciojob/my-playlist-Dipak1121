@@ -14,7 +14,7 @@ body{
 	border-radius: 10px;
 	margin-left: 15px;
 }
-.player_two{
+.player{
 	display: flex;
 	flex-wrap:wrap;
     justify-content: center;
@@ -30,7 +30,9 @@ body{
 #head2{
 	text-align:center;
 }
-#list{
-	text-decoration: none;
+.list{
 	list-style-type: none;
+}
+.list a{
+	text-decoration: none;
 }
